@@ -58,10 +58,10 @@ body{
     height: 80%;
     font-family: poppins,sans-serif;
     font-size: 0.88rem;
-    background: var(--color-backgraound);
+    /* background: var(--color-backgraound); */
     user-select: none;
     /* overflow: hidden; */
-    color: var(--color-dark);
+    /* color: var(--color-dark); */
 }
 
 .container{
@@ -443,6 +443,10 @@ main .recent-order a{
     color: var(--color-primary);
     align-items: center;
     justify-content: center;
+}
+.right .sales-analytics .add-product:hover{
+    background: var(--color-primary);
+    color: white;
 }
 .right .sales-analytics .add-product div{
     display: flex;
